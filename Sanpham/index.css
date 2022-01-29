@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    background-color:antiquewhite;
+}
+.box{
+    width:1250px;
+    min-height:800px;
+    border:1px solid #111;
+    margin: 0 auto;
+}
+.container{
+    text-align: center;
+    width:250px;
+    min-height:350px;
+    background:white;
+    border-radius:20px;
+    padding-top: 10px;
+    display:inline-block;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.container img{
+    width:100%;
+}
+.container .price{
+    text-decoration: line-through;
+}

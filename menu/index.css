@@ -1,0 +1,57 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height:100vh;
+    background: linear-gradient(217deg, rgba(221, 175, 175, 0.8), rgba(221, 185, 185, 0) 70.71%),
+            linear-gradient(127deg, rgba(191, 221, 191, 0.8), rgba(187, 216, 187, 0) 70.71%),
+            linear-gradient(336deg, rgba(145, 145, 158, 0.8), rgba(187, 187, 214, 0) 70.71%),url(https://www.elle.vn/wp-content/uploads/2017/07/25/hinh-anh-dep-1.jpg) no-repeat;
+    font-family:"Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    background-size: cover;
+}
+ul{
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    list-style: none;
+    width: 1280px;
+    margin: 0 auto;
+}
+ul li{
+    display: inline-block;
+    width: 120px;
+    height:40px;
+    line-height: 40px;
+    position: relative;
+}
+ul>li>a{
+    text-decoration:none;
+    display:block;
+}
+ul>li>a:hover{
+    background-color: aquamarine;
+}
+ul ul{
+    display: none;
+    position:absolute;
+    text-align: left;
+    border:none;
+}
+ul>li:hover ul{
+    display:block;
+}
+ul ul>li{
+    display:block;
+    width: 120px;
+    border-bottom: 1px solid #111;
+
+}
+ul ul>li>a{
+    font-size:20px;
+    font-variant: small-caps;
+    padding-left: 30px;
+}
+
+
