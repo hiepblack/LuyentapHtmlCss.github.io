@@ -37,7 +37,6 @@ function thoiGian() {
 
     var box5 = document.getElementById('second');
     box5.innerHTML = giay;
-
 }
 thoiGian();
 
