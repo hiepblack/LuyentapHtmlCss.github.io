@@ -7,7 +7,6 @@ const imgWidth = img[0].offsetWidth;
 console.log(imgWidth)
 var positionX = 0;
 var index = 0;
-
 left.addEventListener('click', function () {
     handleClick(-1)
 })
@@ -18,6 +17,7 @@ function handleClick(der) {
     if (der === 1) {
         index++;
         if (index >= imgLength) {
+            index = 4;
             return;
         }
         console.log(index)
